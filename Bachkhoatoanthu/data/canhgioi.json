@@ -1,0 +1,18 @@
+{
+  "Luyện Khí": {
+    "cap": 1,
+    "mo_ta": "Bắt đầu tu luyện"
+  },
+  "Trúc Cơ": {
+    "cap": 2,
+    "mo_ta": "Xây nền"
+  },
+  "Kim Đan": {
+    "cap": 3,
+    "mo_ta": "Kết đan"
+  },
+  "Nguyên Anh": {
+    "cap": 4,
+    "mo_ta": "Sinh nguyên anh"
+  }
+}
