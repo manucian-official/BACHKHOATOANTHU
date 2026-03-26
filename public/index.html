@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bách Khoa Tu Tiên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>📖 Tu Tiên</h2>
+
+            <button onclick="loadData('nhanvat')">👤 Nhân vật</button>
+            <button onclick="loadData('canhgioi')">⚡ Cảnh giới</button>
+            <button onclick="loadData('vatpham')">🗡️ Vật phẩm</button>
+            <button onclick="loadData('theluc')">⚔️ Thế lực</button>
+            <button onclick="loadData('linhthu')">🐉 Linh thú</button>
+            <button onclick="loadData('bandо')">🧭 Bản đồ</button>
+        </div>
+
+        <div class="main">
+
+            <input id="search" placeholder="🔍 Tìm nhanh...">
+
+            <div id="list"></div>
+
+            <div id="detail"></div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+    <div id="loginBox" style="padding:20px">
+        <h2>🔐 Admin Login</h2>
+        <input id="user" placeholder="username"><br><br>
+        <input id="pass" type="password" placeholder="password"><br><br>
+        <button onclick="login()">Đăng nhập</button>
+    </div>
+</body>
+
+<div id="loading" class="loader-box">
+
+    <div class="aura"></div>
+
+    <h2 id="loading-text">Đang tụ khí...</h2>
+
+    <div class="lore" id="lore"></div>
+
+    <div class="progress">
+        <div id="bar"></div>
+    </div>
+
+    <p id="percent">0%</p>
+
+</div>
+
+<div id="consoleBox" style="margin-top:20px; display:none;">
+    <h3>🧠 Admin Console</h3>
+    <input id="cmd" placeholder="Nhập lệnh..." style="width:80%">
+    <button onclick="runCmd()">Chạy</button>
+
+    <div id="log" style="margin-top:10px; color:#22c55e;"></div>
+</div>
+
+</html>
