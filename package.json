@@ -2,7 +2,7 @@
   "name": "@manucian-official/drafg",
   "version": "1.0.0",
   "description": "My first GitHub package",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"No test\""
   },
