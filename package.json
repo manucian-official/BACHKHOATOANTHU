@@ -1,16 +1,12 @@
 {
-  "name": "web",
+  "name": "@manucian_official/drafg",
   "version": "1.0.0",
-  "description": "",
-  "main": "sever.js",
+  "description": "My first GitHub package",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.2.1"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
